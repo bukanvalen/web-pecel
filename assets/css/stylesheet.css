@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Lato";
+  src: url('../media/Lato-Regular.ttf') format("truetype"); 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: #642B73;
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  
+  background: linear-gradient(to right, #C6426E, #642B73);
+  /*ada 3 versi, jaga2 kalau gak support*/ 
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+}
+
+.jumbotron{
+  height: 100vh;
+  padding-top: 30vh;
+}
+
