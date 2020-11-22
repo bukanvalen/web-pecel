@@ -14,13 +14,24 @@ html {
   /*ada 3 versi, jaga2 kalau gak support*/ 
 }
 
+#sejarah {
+  padding-top: 12vh;
+}
+
+#harga {
+  padding-top: 12vh;
+}
+
 body {
   margin: 0;
   font-family: "Lato";
+}
+
+footer {
+  padding-top: 5vh;
 }
 
 .jumbotron{
   height: 100vh;
   padding-top: 30vh;
 }
-
