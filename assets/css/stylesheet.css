@@ -1,37 +1,39 @@
 @font-face {
-  font-family: "Lato";
-  src: url('../media/Lato-Regular.ttf') format("truetype"); 
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-#home {
-  background: #642B73;
-  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  
-  background: linear-gradient(to right, #C6426E, #642B73);
-  /*ada 3 versi, jaga2 kalau gak support*/ 
-}
-
-#sejarah {
-  padding-top: 12vh;
-}
-
-#harga {
-  padding-top: 12vh;
+    font-family: "Lato";
+    src: url('.../media/Lato-Regular.ttf') format("truetype");
 }
 
 body {
-  margin: 0;
-  font-family: "Lato";
+    margin: 0;
+    font-family: "Lato";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background: #642B73;
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    background: linear-gradient(to right, #C6426E, #642B73);
+}
+
+#sejarah {
+    padding-top: 12vh;
+}
+
+#harga {
+    padding-top: 12vh;
+}
+
+.jumbotron {
+    height: 100vh;
+}
+
+.home {
+    padding-top: 30vh;
 }
 
 footer {
-  padding-top: 5vh;
-}
-
-.jumbotron{
-  height: 100vh;
-  padding-top: 30vh;
+    padding-top: 5vh;
 }
